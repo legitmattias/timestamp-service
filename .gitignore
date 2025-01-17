@@ -56,7 +56,7 @@ npm-debug.log*
 .cache
 
 # Hardhat-related files and folders
-.cache/
+cache/
 artifacts/
 coverage/
 typechain/
