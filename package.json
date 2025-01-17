@@ -2,6 +2,7 @@
   "name": "timestamp-service",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node dist/index.js",
     "dev": "ts-node-dev src/index.ts",
@@ -21,12 +22,14 @@
     "mongoose": "^8.9.5"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.7",
     "@typescript-eslint/eslint-plugin": "^8.20.0",
     "@typescript-eslint/parser": "^8.20.0",
     "eslint": "^9.18.0",
     "globals": "^15.14.0",
+    "hardhat": "^2.22.18",
     "nodemon": "^3.1.9",
     "prettier": "^3.4.2",
     "ts-node": "^10.9.2",

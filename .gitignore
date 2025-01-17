@@ -55,6 +55,19 @@ npm-debug.log*
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
+# Hardhat-related files and folders
+.cache/
+artifacts/
+coverage/
+typechain/
+typechain-types/
+node_modules/
+
+# Hardhat test logs
+*.log
+.env
+
+
 ### Custom ###
 
 # Dev notes
