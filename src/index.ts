@@ -15,5 +15,4 @@ app.use((err: Error, req: Request, res: Response) => {
   res.status(500).json({ error: err.message || 'Internal Server Error' })
 })
 
-
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`))

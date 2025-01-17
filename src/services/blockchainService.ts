@@ -10,19 +10,19 @@ const contractAddress = 'your_deployed_contract_address' // Replace with the dep
 const abi = [
   // Contract ABI
   {
-    'inputs': [{ 'internalType': 'bytes32', 'name': 'noteHash', 'type': 'bytes32' }],
-    'name': 'storeHash',
-    'outputs': [],
-    'stateMutability': 'nonpayable',
-    'type': 'function'
+    inputs: [{ internalType: 'bytes32', name: 'noteHash', type: 'bytes32' }],
+    name: 'storeHash',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function',
   },
   {
-    'inputs': [{ 'internalType': 'bytes32', 'name': 'noteHash', 'type': 'bytes32' }],
-    'name': 'getTimestamp',
-    'outputs': [{ 'internalType': 'uint256', 'name': '', 'type': 'uint256' }],
-    'stateMutability': 'view',
-    'type': 'function'
-  }
+    inputs: [{ internalType: 'bytes32', name: 'noteHash', type: 'bytes32' }],
+    name: 'getTimestamp',
+    outputs: [{ internalType: 'uint256', name: '', type: 'uint256' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
 ]
 const contract = new Contract(contractAddress, abi, wallet)
 
